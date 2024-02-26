@@ -101,6 +101,12 @@ header div{
     text-align: center;
 }
 
+.texto h3 {
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline solid;
+}
+
 
 /* CARTAS */
 .contenedor {
