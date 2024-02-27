@@ -99,6 +99,7 @@ header div{
     font-size: 50px;
     text-transform: justify;
     text-align: center;
+    margin: 10px;
 }
 
 .texto h3 {
@@ -141,9 +142,42 @@ header div{
     font-size: 16px;
 }
 
+/* Accordion */
+
+.accordion1 {
+    display: flex;
+    max-width: 300px;
+    flex-direction: column;
+    margin: 35px;
+    justify-content: space-around;
+}
 
 
+/* FOOTER INICIO */
+footer {
+    background-color: #ffba08;
+    padding: 20px;
+}
 
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer li {
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #fff;
+}
 
 
 
