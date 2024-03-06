@@ -3,6 +3,7 @@
     padding: 0;
     font-family: sans-serif;
 }
+
 /* header */
 header{
     padding: 30px;
@@ -11,66 +12,35 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     height: 370px;
+    color: whitesmoke;
+    background-position: bottom center;
 }
 
-header h2{
-    font-size: 50px;
-    margin: 0 0 20px;
-}
-
-header p{
-margin: 0;
-color: #000000;
-}
-
-@media (max-width: 600px) {
-    header h2 {
-        font-size: 30px;
-        margin: 0 0 20px; 
-    }
-
-    header p {
-        margin: 0; 
-        font-size: 14px; 
-    }
-}
-
-@media (max-width: 400px) {
-    header h2 {
-        font-size: 24px;
-        margin: 0 0 15px; 
-    }
-
-    header p {
-        margin: 0; 
-        font-size: 12px;
-    }
-}
-
-
-
-header div{
-    margin: 60px;
+header div {
     border-radius: 12px;
-    font-size: 30px;
-    color: #000000;
+    font-size: 22px;
     text-transform: capitalize;
 }
+
+header h2 {
+    margin-top: 250px;
+}
+
 /* Fin Header */
 
 /* inicio CSS NAV */
 
-.navbar-nav li a{
-    margin: 10px;    
+.navbar-nav li a {
+    margin: 10px;
 }
 
-.boton-registro{
-    background-color: #ffba08;
+.boton-registro {
+    background-color: #d40303;
     font-size: 14px;
     padding: 8px 20px;
     border-radius: 50px;
     text-decoration: none;
-    transition: 0.3s; 
+    transition: 0.3s;
     color: white;
 }
 
@@ -112,35 +82,66 @@ header div{
 /* CARTAS */
 .contenedor {
     display: flex;
-    justify-content: space-around; 
-    align-items: center; 
-    height: 100vh;
-    flex-wrap: wrap; 
     background-color: #f0f0f0;
+    flex-direction: row;
+    margin: 50px;
+    flex-wrap: wrap;
 }
 
 .carta {
-    width: 200px; 
-    height: 180px; 
-    margin: 25px;
+    width: 200px;
+    height: 200px;
+    margin: 35px;
     box-shadow: 5px 4px 8px rgba(0, 0, 0, 15);
+    text-align: center;
 }
 
-.carta img {
+.carta img{
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
+    background-color: #333;
 }
 
 .carta p {
     text-transform: capitalize;
     text-decoration: underline;
     font-style: italic;
-    margin: 20px;
+    padding: 15px;
     color: #000000;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.5);;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
     font-size: 16px;
 }
+
+body {
+    background: #eeeded;
+  }
+  
+  .card {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.2s ease-in-out;
+    box-sizing: border-box;
+    margin-top:10px;
+    margin-bottom:10px;
+    background-color:#FFF;
+  }
+  
+  .card:hover {
+    box-shadow: 0 5px 5px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  }
+  .card > .card-inner {
+    padding:10px;
+  }
+  .card .header h2, h3 {
+    margin-bottom: 0px;
+    margin-top:0px;
+  }
+  .card .header {
+    margin-bottom:5px;
+  }
+  .card img{
+    width:100%;
+  }
 
 /* Accordion */
 
@@ -178,6 +179,8 @@ footer a {
 footer a:hover {
     color: #fff;
 }
+
+
 
 
 
