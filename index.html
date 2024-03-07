@@ -58,32 +58,8 @@
         <body>
             <div class="texto">
                 <h1>La información Corta y al Pié.</h1>
-                <!-- <article>
-                    <div class="contenedor">
-                        <div class="carta">
-                            <img src="./resources/MessiyCristiano.jpg" alt="Imagen 1">
-                            <p>Toda la Informacion de los historicos</p>
-                        </div>
-                        <div class="carta">
-                            <img src="./resources/Mbappe.jpg" alt="Imagen 2">
-                            <p>El principe deja el reino</p>
-                        </div>
-                        <div class="carta">
-                            <img src="./resources/haaland.webp" alt="Imagen 3">
-                            <p>Presente del Androide</p>
-                        </div>
-                        <div class="carta">
-                            <img src="./resources/chelsad.webp" alt="Imagen 4">
-                            <p>Porque chelsea no remonta</p>
-                        </div>
-
-                        <div class="carta">
-                                <img src="./resources/Astonvillafestejo.avif" alt="Imagen 5">
-                                <p>Aston Villa: ¡Camino a la gloria!</p>
-                        </div>
-                    </div>
-                </article> -->
-                <section>
+                <!-- Cartas -->
+                <section class="card-row">
                     <div class="col-sm-4">
                         <div class="card">
                             <div class="image">
@@ -91,8 +67,7 @@
                             </div>
                             <div class="card-inner">
                                 <div class="header">
-                                    <h2>Title</h2>
-                                    <h3>Sub-Head</h2>
+                                    <h3>Siguen en lo mas alto</h3>
                                 </div>
                                 <div class="content">
                                     <p>Content area</p>
@@ -107,8 +82,7 @@
                             </div>
                             <div class="card-inner">
                                 <div class="header">
-                                    <h2>Title</h2>
-                                    <h3>Sub-Head</h2>
+                                    <h3>El principe deja el reino</h3>
                                 </div>
                                 <div class="content">
                                     <p>Content area</p>
@@ -123,8 +97,7 @@
                             </div>
                             <div class="card-inner">
                                 <div class="header">
-                                    <h2>Title</h2>
-                                    <h3>Sub-Head</h2>
+                                    <h3>Presente del Androide</h3>
                                 </div>
                                 <div class="content">
                                     <p>Content area</p>
@@ -139,8 +112,7 @@
                             </div>
                             <div class="card-inner">
                                 <div class="header">
-                                    <h2>Title</h2>
-                                    <h3>Sub-Head</h2>
+                                    <h3>¿Por que chelsea no remonta?</h3>
                                 </div>
                                 <div class="content">
                                     <p>Content area</p>
@@ -155,8 +127,8 @@
                             </div>
                             <div class="card-inner">
                                 <div class="header">
-                                    <h2>Title</h2>
-                                    <h3>Sub-Head</h2>
+
+                                    <h3>¡Camino a la gloria!</h3>
                                 </div>
                                 <div class="content">
                                     <p>Content area</p>
@@ -166,64 +138,77 @@
                     </div>
 
                 </section>
+
+                <!-- Videos -->
+                <section class="container-color video-style">
+                    <div>
+                        <iframe src="" frameborder="0"></iframe>
+                        <iframe src="" frameborder="0"></iframe>
+                        <iframe src="" frameborder="0"></iframe>
+                    </div>
+                </section>
+
                 <!-- accordeon BS para estadisticas en listas -->
-                
                 <section>
                     <div class="texto">
-                        <h3>Estadisticas</h3>
+                        <h3>Estadisticas actualizadas</h3>
+                        <p>de los campeonatos mas importantes del globo</p>
                     </div>
-                    <div class="accordion accordion1 columna" id="accordionExample">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Estadisticas LPF
-                                </button>
-                            </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <ul>
-                                        <li>Posición 1 - Equipo A</li>
-                                        <li>Posición 2 - Equipo A</li>
-                                        <li>Posición 3 - Equipo A</li>
-                                    </ul>
+                    <div class="accordion">
+                        <div class="accordion columna" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Estadisticas LPF
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show accordion1img"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>Posición 1 - Equipo A</li>
+                                            <li>Posición 2 - Equipo A</li>
+                                            <li>Posición 3 - Equipo A</li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    La Liga
-                                </button>
-                            </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <ul>
-                                        <li>Posición 1 - Equipo A</li>
-                                        <li>Posición 2 - Equipo A</li>
-                                        <li>Posición 3 - Equipo A</li>
-                                    </ul>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        La Liga
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body accordion2img">
+                                        <ul>
+                                            <li>Posición 1 - Equipo A</li>
+                                            <li>Posición 2 - Equipo A</li>
+                                            <li>Posición 3 - Equipo A</li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    Premier League
-                                </button>
-                            </h2>
-                            <div id="collapseThree" class="accordion-collapse collapse"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <ul>
-                                        <li>Posición 1 - Equipo A</li>
-                                        <li>Posición 2 - Equipo A</li>
-                                        <li>Posición 3 - Equipo A</li>
-                                    </ul>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        Premier League
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse accordion3img"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>Posición 1 - Equipo A</li>
+                                            <li>Posición 2 - Equipo A</li>
+                                            <li>Posición 3 - Equipo A</li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
